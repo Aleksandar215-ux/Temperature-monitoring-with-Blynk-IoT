@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID " " // upisati identifikator projekta
-#define BLYNK_TEMPLATE_NAME " " // upisati naziv projekta
-#define BLYNK_AUTH_TOKEN " " //upisati autentifikacioni token
+#define BLYNK_TEMPLATE_ID " " // write project ID 
+#define BLYNK_TEMPLATE_NAME " " // write project name
+#define BLYNK_AUTH_TOKEN " " //write token
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -15,8 +15,8 @@ unsigned long previousBeep = 0;
 bool alarmSent = false;
 float threshold = 30;
 
-char ssid[] = " "; //upisati naziv Wi-Fi mreze
-char pass[] = " "; //upisati lozinku Wi_Fi mreze
+char ssid[] = " "; //write Wi-Fi name 
+char pass[] = " "; //write Wi-Fi password
 
 DHT dht(DHTPIN, DHTTYPE);
 
