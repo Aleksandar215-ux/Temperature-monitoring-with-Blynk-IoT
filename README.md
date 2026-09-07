@@ -25,7 +25,7 @@ Blynk dashboard
 
 
 
- I fotografiju sklopa: ![Hardware setup]
+ 
  <img width="1019" height="765" alt="image" src="https://github.com/user-attachments/assets/d64a064d-46d4-4f8c-9add-e4578926a576" />
 
 Configuration
